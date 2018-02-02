@@ -1,5 +1,5 @@
 package ooplab8;
-public class Rectangle {
+public class Rectangle implements Shape {
     private double width;
     private double length;
 
@@ -22,5 +22,10 @@ public class Rectangle {
 
     public void setLength(double length) {
         this.length = length;
+    }
+
+    @Override
+    public double findArea() {
+        return width*length;
     }
 }//class

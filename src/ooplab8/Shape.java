@@ -1,6 +1,6 @@
 package ooplab8;
 
-public class Shape {
-    double finbeArea();
+public interface Shape {
+     double findArea();
 
 }
