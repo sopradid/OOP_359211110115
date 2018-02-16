@@ -1,10 +1,8 @@
-package oop_lab8;
-
-//Dog is a cat
-//Dog is sub-class
-//Pet is super-class
-public class Dog extends {
-
+package ooplab8;
+//Dog is a Ped
+//Dog is Sub-class
+//Pet is Super-class
+public class Dog extends Pet{
     public Dog(String name, int age) {
         super(name, age);
     }

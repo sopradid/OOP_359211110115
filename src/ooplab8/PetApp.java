@@ -1,15 +1,16 @@
 package ooplab8;
-//Dog is a Pet
-//Dog is sub Class
-//Dog is
-    public class Dog extends Pet{
-    public Dog(String name, int age) {
-        super(name, age);
-    }
 
-    @Override
-    public void makeNoise() {
-        System.out.println("Box Box !!!");
-    }
+public class PetApp {
+    public static void main(String[] args) {
+        Dog dog = new Dog("kaya", 2);
+        System.out.println(dog.getName());
+        System.out.println(dog.getAge());
+        dog.makeNoise();
 
-}//Class
+
+        Cat cat = new Cat("somsai", 1);
+        System.out.println(cat.getName());
+        System.out.println(cat.getAge());
+        cat.makeNoise();
+    }
+}//class
